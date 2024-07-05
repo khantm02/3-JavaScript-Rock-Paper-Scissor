@@ -1,0 +1,37 @@
+<!-- 
+ 1) header, 3 buttons for rock, paper and scissor
+ 2) player, computer and result display
+ 3) score
+  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1>Rock Paper Scissor Game</h1>
+    <div class="choices">
+      <button onclick="playGame('rock')">👊</button>
+      <button onclick="playGame('paper')">🖐️</button>
+      <button onclick="playGame('scissor')">🤞</button>
+    </div>
+    <div class="playerDisplay">PLAYER:</div>
+    <div class="computerDisplay">COMPUTER:</div>
+    <div class="resultDisplay"></div>
+
+    <div class="scoreDisplay">
+      Player Score:
+      <span class="playerScoreDisplay">0</span>
+    </div>
+
+    <div class="scoreDisplay">
+      Computer Score:
+      <span class="computerScoreDisplay">0</span>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
